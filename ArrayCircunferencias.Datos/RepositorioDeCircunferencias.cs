@@ -11,8 +11,8 @@ namespace ArrayCircunferencias.Datos
     public class RepositorioDeCircunferencias
     {
         private List<Circunferencia> ListaCircunferencias;
- private readonly  string _archivo= Environment.CurrentDirectory + "\\Circunferencia.txt";
-    private readonly string _archivoCopia = Environment.CurrentDirectory + "\\Circunferencia.bak";
+            private readonly  string _archivo= Environment.CurrentDirectory + "\\Circunferencia.txt";
+            private readonly string _archivoCopia = Environment.CurrentDirectory + "\\Circunferencia.bak";
 
         public RepositorioDeCircunferencias(List<Circunferencia> listaCircunferencias)
         {
